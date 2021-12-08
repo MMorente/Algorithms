@@ -16,6 +16,7 @@ public:
 
 private:
 	std::vector<std::vector<int>> matrix;
+	std::queue<std::pair<std::pair<int, int>, int>> q;
 	const int rows;
 	const int cols;
 	int rowNum[4] = { -1, 0, 0, 1 };

@@ -15,7 +15,6 @@ int ShortestPath::solve() {
 	//We always start from the top left, mark it as visited.
 	visited[0][0] = 1;
 
-	std::queue<std::pair<std::pair<int, int>, int>> q;
 	q.push({ {0, 0}, 0 });
 
 	while (!q.empty()) {
