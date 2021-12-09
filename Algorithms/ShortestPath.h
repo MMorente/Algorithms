@@ -5,6 +5,12 @@
 #include <map>
 #include <vector>
 
+/*
+	Find shortest path to cell with value 9. You can only move to cells with
+	value 1. The implementation uses a Breadth First Search (BFS) algorithm 
+	to assure we find the shortest path.
+*/
+
 namespace Algos {
 	class ShortestPath {
 	public:
