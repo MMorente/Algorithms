@@ -1,7 +1,5 @@
-﻿// Test.cpp : Defines the entry point for the application.
-//
+﻿#include "ShortestPath.h"
 
-#include "ShortestPath.h"
 namespace Algos {
 	ShortestPath::ShortestPath(const std::vector<std::vector<int>>& m) : matrix(m), rows(m.size()), cols(m[0].size()) {}
 
